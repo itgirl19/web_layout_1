@@ -1,0 +1,76 @@
+html,
+body {
+	margin: 1px;
+      padding: 0px;
+	  width: 99,80%;
+	  height: 99,20%;
+	  font-size: 100%;
+	  font-family: ariel;
+	  color; grey;}
+
+div {
+	font-size: 1.0em;
+     color: white;
+	 border: 2px;
+	 border-style: solid;
+	 border-color: black;}
+	  
+/* Style the header */
+#hdr {
+	background-color:purple;
+    font-size: 3.5em;
+	height: 10%;}
+		 
+/* Style the navigation bar */
+#nav {
+	overflow:hidden;
+    background-color:blue;
+	height: 5%;}
+	  
+a {
+    display:block;
+    color:white;
+    text-align:center;
+    text-decoration:none;		  
+}
+
+/* Style the links */
+.left  {
+	float:left;
+    width: 5%;
+}
+
+#rechts {
+	float:right;
+}		
+
+/* Change color on hover */
+#nav a:hover {
+	background-color: darkblue;
+    color: black;
+}
+
+/* Content */
+#cnt {height: 77%}
+
+#content {
+	float:left;
+	width:75%;
+	height: 100%;
+	background-color:lightgreen;
+}
+
+/* sidebar */
+#sidebar {
+	background-color: yellow;
+    height: 100%;
+	}
+	  
+#ftr {
+	background-color: red;
+    height: 7%
+}
+
+
+
+		 
